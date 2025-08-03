@@ -1,8 +1,9 @@
 Vandelay Industries Dashboard
 
+A multi-tenant SaaS platform for tracking fictional imports and exports.
 This project is intended to be a funny way for me to showcase my system design skills.
-The idea is that it is a dashboard for a fictional company, based on the fictional company
-that George Costanza created in Seinfeld. Vandelay Industries imports and exports things.
+The idea is that it is a dashboard for the fake company that George Costanza creates
+in Seinfeld.
 
 Architecture Concept
 
@@ -17,4 +18,3 @@ Containerization (Docker)
 SQL database on AWS RDS with PostgreSQL
 NoSQL database with MongDB Atlas on AWS
 Securely designed VPC in AWS
-
