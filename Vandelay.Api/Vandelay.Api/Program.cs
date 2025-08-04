@@ -1,27 +1,25 @@
 using Amazon.Lambda.AspNetCoreServer.Hosting;
 
+var builder = WebApplication.CreateSlimBuilder(args);
 
-var builder = WebApplication.CreateBuilder(args);
-
-// Add lambda hosting
+// Lambda support
 builder.Services.AddAWSLambdaHosting(LambdaEventSource.HttpApi);
 
-// Add swagger
+// Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// use Swagger on dev
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-app.MapGet("/users", () => 
+app.MapGet("/users", () =>
 {
-    var users = new List<User>()
+    var users = new List<User>
     {
         new User(Guid.NewGuid(), "Art", "Vandelay", "art@vandelayindustries.com"),
         new User(Guid.NewGuid(), "George", "Costanza", "george@vandelayindustries.com"),
