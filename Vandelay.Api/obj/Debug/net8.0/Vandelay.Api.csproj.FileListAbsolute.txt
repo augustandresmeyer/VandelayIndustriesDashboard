@@ -26,7 +26,6 @@
 /Users/augustmeyer/Desktop/code/VandelayIndustriesDashboard/Vandelay.Api/obj/Debug/net8.0/Vandelay.Api.csproj.CoreCompileInputs.cache
 /Users/augustmeyer/Desktop/code/VandelayIndustriesDashboard/Vandelay.Api/obj/Debug/net8.0/Vandelay.Api.MvcApplicationPartsAssemblyInfo.cs
 /Users/augustmeyer/Desktop/code/VandelayIndustriesDashboard/Vandelay.Api/obj/Debug/net8.0/Vandelay.Api.MvcApplicationPartsAssemblyInfo.cache
-/Users/augustmeyer/Desktop/code/VandelayIndustriesDashboard/Vandelay.Api/obj/Debug/net8.0/Vandelay.Api.sourcelink.json
 /Users/augustmeyer/Desktop/code/VandelayIndustriesDashboard/Vandelay.Api/obj/Debug/net8.0/scopedcss/bundle/Vandelay.Api.styles.css
 /Users/augustmeyer/Desktop/code/VandelayIndustriesDashboard/Vandelay.Api/obj/Debug/net8.0/staticwebassets.build.json
 /Users/augustmeyer/Desktop/code/VandelayIndustriesDashboard/Vandelay.Api/obj/Debug/net8.0/staticwebassets.development.json

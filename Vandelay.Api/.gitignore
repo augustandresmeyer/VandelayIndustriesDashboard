@@ -1,0 +1,67 @@
+# ----------------------------
+# OS junk
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# IDEs and editors
+# ----------------------------
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ----------------------------
+# Build output
+# ----------------------------
+bin/
+obj/
+*.zip
+
+# .NET publish folders
+**/publish/
+
+# ASP.NET Static files
+**/*.staticwebassets.*
+
+# User secrets
+secrets.json
+
+# ----------------------------
+# AWS Lambda specific
+# ----------------------------
+*.aws-lambda-tools-defaults.json
+**/linux-x64/
+**/publish/
+.vs/
+
+# ----------------------------
+# Terraform
+# ----------------------------
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# ----------------------------
+# Logs & temp
+# ----------------------------
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ----------------------------
+# Node/npm (if used)
+# ----------------------------
+node_modules/
+npm-debug.log
+
+# ----------------------------
+# Other
+# ----------------------------
+.env
+

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "To5m/24/tzE=",
+  "dgSpecHash": "lMoNtIgulzM=",
   "success": true,
   "projectFilePath": "/Users/augustmeyer/Desktop/code/VandelayIndustriesDashboard/Vandelay.Api/Vandelay.Api.csproj",
   "expectedPackageFiles": [
@@ -31,7 +31,7 @@
     "/Users/augustmeyer/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.0/system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
     "/Users/augustmeyer/.nuget/packages/microsoft.netcore.app.ref/8.0.14/microsoft.netcore.app.ref.8.0.14.nupkg.sha512",
     "/Users/augustmeyer/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.14/microsoft.aspnetcore.app.ref.8.0.14.nupkg.sha512",
-    "/Users/augustmeyer/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.14/microsoft.netcore.app.host.linux-x64.8.0.14.nupkg.sha512"
+    "/Users/augustmeyer/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.14/microsoft.netcore.app.host.osx-arm64.8.0.14.nupkg.sha512"
   ],
   "logs": []
 }
