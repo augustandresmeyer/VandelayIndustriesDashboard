@@ -10,10 +10,9 @@ Architecture Concept
 Vandelay Industries Dashboard is a cloud-native mulitenant SaaS app.
 
 It is comprised of:
-RESTful APIs (written in C# with .NET)
+RESTful Minimal APIs (written in C# with .NET Core, hosted as a Serverless Lambda functions in AWS)
 GraphQL APIs (written in Javascript with nodeJS)
-Serverless functions in AWS Lambda (written in C#)
-Infrastructure as Code (IAC) defining CI/CD pipelines using Terraform with AWS
+Infrastructure as Code (IAC) defining CI/CD pipelines using Terraform
 Containerization (Docker)
 SQL database on AWS RDS with PostgreSQL
 NoSQL database with MongDB Atlas on AWS
