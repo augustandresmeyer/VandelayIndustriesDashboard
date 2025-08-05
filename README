@@ -1,0 +1,20 @@
+Vandelay Industries Dashboard
+
+A multi-tenant SaaS platform for tracking fictional imports and exports.
+This project is intended to be a funny way for me to showcase my system design skills.
+The idea is that it is a dashboard for the fake company that George Costanza creates
+in Seinfeld.
+
+Architecture Concept
+
+Vandelay Industries Dashboard is a cloud-native mulitenant SaaS app.
+
+It is comprised of:
+RESTful APIs (written in C# with .NET)
+GraphQL APIs (written in Javascript with nodeJS)
+Serverless functions in AWS Lambda (written in C#)
+Infrastructure as Code (IAC) defining CI/CD pipelines using Terraform with AWS
+Containerization (Docker)
+SQL database on AWS RDS with PostgreSQL
+NoSQL database with MongDB Atlas on AWS
+Securely designed VPC in AWS
