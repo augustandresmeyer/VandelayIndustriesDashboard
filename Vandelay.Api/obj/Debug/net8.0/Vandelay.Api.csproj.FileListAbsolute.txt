@@ -42,3 +42,4 @@
 /Users/augustmeyer/Desktop/code/VandelayIndustriesDashboard/Vandelay.Api/obj/Debug/net8.0/Vandelay.Api.pdb
 /Users/augustmeyer/Desktop/code/VandelayIndustriesDashboard/Vandelay.Api/obj/Debug/net8.0/Vandelay.Api.genruntimeconfig.cache
 /Users/augustmeyer/Desktop/code/VandelayIndustriesDashboard/Vandelay.Api/obj/Debug/net8.0/ref/Vandelay.Api.dll
+/Users/augustmeyer/Desktop/code/VandelayIndustriesDashboard/Vandelay.Api/obj/Debug/net8.0/Vandelay.Api.sourcelink.json

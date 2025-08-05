@@ -70,7 +70,7 @@
               "version": "[8.0.14, 8.0.14]"
             },
             {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
               "version": "[8.0.14, 8.0.14]"
             },
             {
@@ -87,6 +87,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
         }
       }
     }
