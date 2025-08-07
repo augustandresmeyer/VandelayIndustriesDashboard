@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Vandelay.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12534f661547af54c80ea7435f340115190be7da")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c587de1f3a002802939eb31fa50839d47d99c70a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Vandelay.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Vandelay.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
