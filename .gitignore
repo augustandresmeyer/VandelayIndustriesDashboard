@@ -29,6 +29,7 @@ obj/
 
 # User secrets
 secrets.json
+.env
 
 # ----------------------------
 # AWS Lambda specific
