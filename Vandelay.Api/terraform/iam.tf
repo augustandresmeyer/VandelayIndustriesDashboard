@@ -1,5 +1,6 @@
 resource "aws_iam_role" "lambda_exec" {
     name = "vandelay_lambda_exec_role"
+    description = "Execution role for Vandelay API Lambda"
 
     assume_role_policy = jsonencode({
         Version = "2012-10-17",
@@ -27,6 +28,7 @@ data "aws_iam_policy_document" "lambda_read_db_secret" {
 
 resource "aws_iam_policy" "lambda_read_db_secret" {
     name = "vandelay-lambda-read-db-secret"
+    description = "Allow Lambda to read DB creds from Secrets manager"
     policy = data.aws_iam_policy_document.lambda_read_db_secret.json
 }
 
