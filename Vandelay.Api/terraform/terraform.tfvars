@@ -1,0 +1,5 @@
+vpc_id = "vpc-0db57dc3fcd93f71d"
+private_subnet_az1 = "us-east-1a"
+private_subnet_az2 = "us-east-1b"
+private_subnet_cidr1 = "172.31.200.0/24"
+private_subnet_cidr2 = "172.31.201.0/24"

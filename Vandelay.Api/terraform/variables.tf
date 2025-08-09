@@ -25,3 +25,22 @@ variable "private_subnet_ids" {
     type = list(string)
 }
 
+variable "private_subnet_az1" {
+    description = "AZ for the first private subnet"
+    type = string
+}
+
+variable "private_subnet_az2" {
+    description = "AZ for seceond private subnet"
+    type = string
+}
+
+variable "private_subnet_cidr1" {
+    description = "CIDR block for first private subnet"
+    type = string
+}
+
+variable "private_subnet_cidr2" {
+    description = "CIDR block for second private subnet"
+    type = string
+}
