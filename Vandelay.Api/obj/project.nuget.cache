@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "McC64pwuegk=",
+  "dgSpecHash": "PTcuKRrpBM4=",
   "success": true,
   "projectFilePath": "/Users/augustmeyer/Desktop/code/VandelayIndustriesDashboard/Vandelay.Api/Vandelay.Api.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,8 @@
     "/Users/augustmeyer/.nuget/packages/amazon.lambda.logging.aspnetcore/4.1.0/amazon.lambda.logging.aspnetcore.4.1.0.nupkg.sha512",
     "/Users/augustmeyer/.nuget/packages/amazon.lambda.runtimesupport/1.13.1/amazon.lambda.runtimesupport.1.13.1.nupkg.sha512",
     "/Users/augustmeyer/.nuget/packages/amazon.lambda.serialization.systemtextjson/2.4.4/amazon.lambda.serialization.systemtextjson.2.4.4.nupkg.sha512",
+    "/Users/augustmeyer/.nuget/packages/awssdk.core/4.0.0.21/awssdk.core.4.0.0.21.nupkg.sha512",
+    "/Users/augustmeyer/.nuget/packages/awssdk.secretsmanager/4.0.0.17/awssdk.secretsmanager.4.0.0.17.nupkg.sha512",
     "/Users/augustmeyer/.nuget/packages/dotnetenv/3.1.1/dotnetenv.3.1.1.nupkg.sha512",
     "/Users/augustmeyer/.nuget/packages/microsoft.extensions.apidescription.server/8.0.0/microsoft.extensions.apidescription.server.8.0.0.nupkg.sha512",
     "/Users/augustmeyer/.nuget/packages/microsoft.extensions.configuration/2.1.0/microsoft.extensions.configuration.2.1.0.nupkg.sha512",

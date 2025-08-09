@@ -44,6 +44,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AWSSDK.SecretsManager": {
+              "target": "Package",
+              "version": "[4.0.0.17, )"
+            },
             "Amazon.Lambda.AspNetCoreServer.Hosting": {
               "target": "Package",
               "version": "[1.9.0, )"

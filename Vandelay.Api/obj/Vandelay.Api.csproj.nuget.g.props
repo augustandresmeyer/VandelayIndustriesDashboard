@@ -18,5 +18,7 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">/Users/augustmeyer/.nuget/packages/microsoft.extensions.apidescription.server/8.0.0</PkgMicrosoft_Extensions_ApiDescription_Server>
+    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">/Users/augustmeyer/.nuget/packages/awssdk.core/4.0.0.21</PkgAWSSDK_Core>
+    <PkgAWSSDK_SecretsManager Condition=" '$(PkgAWSSDK_SecretsManager)' == '' ">/Users/augustmeyer/.nuget/packages/awssdk.secretsmanager/4.0.0.17</PkgAWSSDK_SecretsManager>
   </PropertyGroup>
 </Project>
