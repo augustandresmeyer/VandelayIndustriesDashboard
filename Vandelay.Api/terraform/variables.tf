@@ -20,11 +20,6 @@ variable "db_port" {
     default = 5432
 }
 
-variable "private_subnet_ids" {
-    description = "Private subnets where the Lambda ENIs will live"
-    type = list(string)
-}
-
 variable "private_subnet_az1" {
     description = "AZ for the first private subnet"
     type = string

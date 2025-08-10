@@ -29,3 +29,10 @@ resource "aws_route_table_association" "assoc_2" {
     route_table_id = aws_route_table.private_rt.id
 }
 
+locals {
+  private_subnet_ids = [
+    aws_subnet.private_1.id,
+    aws_subnet.private_2.id
+  ]
+}
+

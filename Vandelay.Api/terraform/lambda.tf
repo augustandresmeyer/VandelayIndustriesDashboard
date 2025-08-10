@@ -10,7 +10,7 @@ resource "aws_lambda_function" "vandelay_api" {
     source_code_hash = filebase64sha256("${path.module}/../bin/Release/net8.0/vandelay-api.zip")
 
     vpc_config {
-        subnet_ids = var.private_subnet_ids
+        subnet_ids = local.private_subnet_ids
         security_group_ids = [aws_security_group.lambda_sg.id]
     }
 
