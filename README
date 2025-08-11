@@ -1,7 +1,10 @@
 Vandelay Industries Dashboard
 
 A multi-tenant SaaS platform for tracking fictional imports and exports.
-This project is intended to be a funny way for me to showcase my system design skills.
+
+This project is intended to be a funny way for me to showcase my system design skills for
+modern cloud infrastructure.
+
 The idea is that it is a dashboard for the fake company that George Costanza creates
 in Seinfeld.
 
