@@ -16,3 +16,10 @@ resource "aws_security_group" "rds_sg" {
     }
 }
 
+resource "aws_db_subnet_group"  "vandelay_rds_subnet_group" {
+    subnet_ids = local.private_subnet_ids
+    tags = {
+        Name = "vandelay-rds-subnet-group"
+    }
+}
+
