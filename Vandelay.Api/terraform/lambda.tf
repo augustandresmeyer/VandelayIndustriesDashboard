@@ -17,7 +17,7 @@ resource "aws_lambda_function" "vandelay_api" {
     environment {
         variables = {
             ASPNETCORE_ENVIRONMENT = "Production"
-            DB_HOST = "vandelay-db-1.c29i26um01bh.us-east-1.rds.amazonaws.com"
+            DB_HOST = aws_db_instance.vandelay_postgres.endpoint
             DB_PORT = 5432
             DB_NAME = "vandelay-db-1"
         }
